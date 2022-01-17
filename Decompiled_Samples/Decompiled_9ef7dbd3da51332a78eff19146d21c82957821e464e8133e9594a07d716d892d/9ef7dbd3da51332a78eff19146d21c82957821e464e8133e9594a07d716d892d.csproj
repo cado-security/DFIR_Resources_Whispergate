@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Frkmlkdkdubkznbkmcf</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="78c855a088924e92a7f60d661c3d1845" />
+    <None Remove="-" />
+    <None Remove="7c8cb5598e724d34384cce7402b11f0e" />
+    <EmbeddedResource Include="78c855a088924e92a7f60d661c3d1845" />
+    <EmbeddedResource Include="-" />
+    <EmbeddedResource Include="7c8cb5598e724d34384cce7402b11f0e" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>
